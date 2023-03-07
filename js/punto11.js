@@ -23,3 +23,27 @@ switch (num) {
         document.write(`No es divisible por ningun caso`)
         break;
 }
+
+/* 
+//! Otra manera de resolverlo
+let numero = parseInt(prompt("Introduce un número: "));
+let divisible = ''
+if(numero % 2 == 0){
+    divisible = ` ${divisible}2`;
+}
+if(numero % 3 == 0){
+    divisible = ` ${divisible}, 3 `;
+}
+if(numero % 5 == 0){
+    divisible = ` ${divisible}, 5 `;
+}
+if(numero % 7 == 0){
+    divisible = ` ${divisible}, 7 `;
+}
+if(divisible == ''){
+    document.write(`El numero ${numero} no es divisible por 2, 3, 5, 7`)
+}else{
+    document.write(`El numero ${numero} es divisible por ${divisible} `)
+}
+
+*/
